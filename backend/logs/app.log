@@ -1,0 +1,38 @@
+Error Stack: ReferenceError: name is not defined
+    at Teacher.createTeacher (C:\JS Development Directory\teacher-evaluation-system\backend\models\TeacherModel.js:58:33)
+    at addTeacher (C:\JS Development Directory\teacher-evaluation-system\backend\controllers\TeacherController.js:177:40)
+    at Layer.handle [as handle_request] (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\index.js:175:3)
+Error Name: ReferenceError
+Error Code: undefined
+Error Stack: TypeError: (intermediate value) is not iterable
+    at authenticateUser (C:\JS Development Directory\teacher-evaluation-system\backend\controllers\AuthController.js:10:31)
+Error Name: TypeError
+Error Code: undefined
+Error Stack: TypeError: (intermediate value) is not iterable
+    at authenticateUser (C:\JS Development Directory\teacher-evaluation-system\backend\controllers\AuthController.js:10:31)
+Error Name: TypeError
+Error Code: undefined
+Error Stack: TypeError: (intermediate value) is not iterable
+    at authenticateUser (C:\JS Development Directory\teacher-evaluation-system\backend\controllers\AuthController.js:10:31)
+Error Name: TypeError
+Error Code: undefined
+Error Stack: TypeError: Authentication.UserLogin7 is not a function
+    at authenticateUser (C:\JS Development Directory\teacher-evaluation-system\backend\controllers\AuthController.js:12:49)
+    at Layer.handle [as handle_request] (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\JS Development Directory\teacher-evaluation-system\backend\node_modules\express\lib\router\index.js:47:12)
+Error Name: TypeError
+Error Code: undefined
